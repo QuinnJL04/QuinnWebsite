@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Backend API",
+      "description": "Built a scalable RESTful API using Spring Boot with microservices architecture, handling 10k+ requests/minute",
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Redis", "Docker"],
+      "githubUrl": "https://github.com/yourusername/ecommerce-api",
+      "liveUrl": "https://api.example.com",
+      "imageUrl": "/projects/ecommerce.png"
+    },
+    {
+      "id": 2,
+      "title": "ML Price Prediction Model",
+      "description": "Developed a machine learning model using Python to predict real estate prices with 92% accuracy",
+      "technologies": ["Python", "Scikit-learn", "Pandas", "NumPy", "Flask"],
+      "githubUrl": "https://github.com/yourusername/ml-price-prediction",
+      "liveUrl": null,
+      "imageUrl": "/projects/ml-model.png"
+    },
+    {
+      "id": 3,
+      "title": "Data Pipeline Automation",
+      "description": "Automated ETL pipeline processing 1M+ records daily using Apache Spark and Airflow",
+      "technologies": ["Python", "Apache Spark", "Airflow", "AWS S3", "PostgreSQL"],
+      "githubUrl": "https://github.com/yourusername/data-pipeline",
+      "liveUrl": null,
+      "imageUrl": "/projects/data-pipeline.png"
+    }
+  ],
+  "skills": [
+    { "name": "Java", "category": "backend", "level": 90 },
+    { "name": "Python", "category": "backend", "level": 85 },
+    { "name": "Spring Boot", "category": "backend", "level": 88 },
+    { "name": "PostgreSQL", "category": "database", "level": 80 },
+    { "name": "Docker", "category": "devops", "level": 75 },
+    { "name": "AWS", "category": "devops", "level": 70 },
+    { "name": "Pandas", "category": "datascience", "level": 82 },
+    { "name": "Scikit-learn", "category": "datascience", "level": 78 },
+    { "name": "TypeScript", "category": "frontend", "level": 60 }
+  ]
+}
