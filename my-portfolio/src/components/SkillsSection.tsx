@@ -13,14 +13,14 @@ const categoryColors = {
   frontend: '#ebbcad',     // soft-peach
   database: '#8a949a',     // cool-gray
   devops: '#525f5c',       // dark-slate
-  datascience: '#f9e6db',  // warm-cream with border
+  datascience: '#f9e6db',  // warm-cream
+  mobile: '#ad785c',       // warm-brown
 };
 
 export default function SkillsSection({ skills }: SkillsSectionProps) {
   const [visibleSkills, setVisibleSkills] = useState<boolean[]>([]);
 
   useEffect(() => {
-    // Animate skills appearing one by one
     const timers = skills.map((_, index) => 
       setTimeout(() => {
         setVisibleSkills(prev => {
@@ -35,16 +35,15 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
   }, [skills]);
 
   return (
-    <section id="skills" className="py-20 bg-gradient-to-b from-white to-[#F2C7C7]/10">
+    <section id="skills" className="py-20 bg-gradient-to-b from-white to-warm-cream">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
+        <h2 className="text-4xl font-bold text-center mb-4 text-deep-forest">
           Skills & Technologies
         </h2>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-cool-gray mb-12">
           My technical toolkit
         </p>
 
-        {/* Skills Grid with Animation */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {skills.map((skill, index) => (
             <div
@@ -56,12 +55,10 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
               }`}
             >
               <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-shadow">
-                {/* Skill Name */}
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-deep-forest mb-3">
                   {skill.name}
                 </h3>
 
-                {/* Progress Bar */}
                 <div className="w-full bg-gray-200 rounded-full h-2 mb-2">
                   <div
                     className="h-2 rounded-full transition-all duration-1000"
@@ -72,8 +69,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
                   />
                 </div>
 
-                {/* Category Badge */}
-                <span className="text-xs text-gray-500 capitalize">
+                <span className="text-xs text-cool-gray capitalize">
                   {skill.category}
                 </span>
               </div>
@@ -81,7 +77,6 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
           ))}
         </div>
 
-        {/* Floating/Moving Skill Badges */}
         <div className="mt-16 relative h-40 overflow-hidden">
           <div className="absolute w-full flex gap-4 whitespace-nowrap animate-[scroll_20s_linear_infinite] hover:[animation-play-state:paused]">
             {[...skills, ...skills].map((skill, index) => (
@@ -92,7 +87,7 @@ export default function SkillsSection({ skills }: SkillsSectionProps) {
                   borderLeftColor: categoryColors[skill.category],
                 }}
               >
-                <span className="font-medium text-gray-700">{skill.name}</span>
+                <span className="font-medium text-deep-forest">{skill.name}</span>
               </div>
             ))}
           </div>

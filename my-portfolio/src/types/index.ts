@@ -4,13 +4,13 @@ export interface Project {
     description: string;
     technologies: string[];
     githubUrl: string;
-    liveUrl?: string;
+    liveUrl?: string | null;
     imageUrl?: string;
 }
 
 export interface Skill {
     name: string;
-    category: 'backend' | 'frontend' | 'database' | 'devops' | 'datascience';
+    category: 'backend' | 'frontend' | 'database' | 'devops' | 'datascience' | 'mobile';
     level: number;
 }
 

@@ -71,25 +71,25 @@ export default function Header() {
           <div className="md:hidden mt-4 pb-4 space-y-4">
             <button 
               onClick={() => scrollToSection('about')}
-              className="block text-gray-700 hover:text-[#FFB7C5]"
+              className="block text-dark-slate hover:text-warm-brown"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('projects')}
-              className="block text-gray-700 hover:text-[#FFB7C5]"
+              className="block text-dark-slate hover:text-warm-brown"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
-              className="block text-gray-700 hover:text-[#FFB7C5]"
+              className="block text-dark-slate hover:text-warm-brown"
             >
               Skills
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="block text-gray-700 hover:text-[#FFB7C5]"
+              className="block text-dark-slate hover:text-warm-brown"
             >
               Contact
             </button>

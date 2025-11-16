@@ -61,10 +61,10 @@ export default function HomePage() {
         {/* Projects Section */}
         <section id="projects" className="py-20 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
+            <h2 className="text-4xl font-bold text-center mb-4 text-deep-forest">
               Featured Projects
             </h2>
-            <p className="text-center text-gray-600 mb-12">
+            <p className="text-center text-cool-gray mb-12">
               Here are some of my recent works
             </p>
 
