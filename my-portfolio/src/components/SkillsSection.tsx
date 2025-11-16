@@ -9,11 +9,11 @@ interface SkillsSectionProps {
 }
 
 const categoryColors = {
-  backend: '#FFB7C5',
-  frontend: '#F2C7C7',
-  database: '#D5F3D8',
-  devops: '#FFB7C5',
-  datascience: '#F2C7C7',
+  backend: '#ad785c',      // warm-brown
+  frontend: '#ebbcad',     // soft-peach
+  database: '#8a949a',     // cool-gray
+  devops: '#525f5c',       // dark-slate
+  datascience: '#f9e6db',  // warm-cream with border
 };
 
 export default function SkillsSection({ skills }: SkillsSectionProps) {

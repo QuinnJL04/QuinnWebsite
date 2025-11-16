@@ -41,12 +41,12 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-[#F2C7C7]/10 to-white">
+    <section id="contact" className="py-20 bg-gradient-to-b from-warm-cream to-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
+        <h2 className="text-4xl font-bold text-center mb-4 text-deep-forest">
           Get In Touch
         </h2>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-cool-gray mb-12">
           Let's build something amazing together
         </p>
 
@@ -125,7 +125,7 @@ export default function ContactForm() {
           {/* Social Links */}
           <div className="mt-12 flex justify-center gap-6">
             <a
-              href="https://github.com/QuinnJL04"
+              href="https://github.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-[#FFB7C5] text-white rounded-full flex items-center justify-center hover:bg-[#F2C7C7] transition-colors"
@@ -135,7 +135,7 @@ export default function ContactForm() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/quinnlouie"
+              href="https://linkedin.com/in/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-[#FFB7C5] text-white rounded-full flex items-center justify-center hover:bg-[#F2C7C7] transition-colors"

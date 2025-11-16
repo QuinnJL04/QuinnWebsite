@@ -1,0 +1,31 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "role": "Software Engineer Co-op",
+            "company": "Chewy",
+            "startDate": "2025-05",
+            "endDate": "2025-12",
+            "location": "Boston, MA",
+            "responsibilities": [
+                "Developed and maintained backend services for Chewy's e-commerce platform using Java and Spring Boot.",
+                "Collaborated with cross-functional teams to design and implement new features, improving user experience and performance.",
+                "Optimized database queries and improved application performance, resulting in a 15% reduction in load times."
+            ]
+        },
+        {
+            "id": 2,
+            "role": "Software Engineer Co-op",
+            "company": "Northeastern ITS",
+            "startDate": "2024-06",
+            "endDate": "2024-12",
+            "location": "Boston, MA",
+            "responsibilities": [
+                "Assisted in developing machine learning models for image classification using Python and TensorFlow.",
+                "Conducted data preprocessing and augmentation to enhance model training and accuracy.",
+                "Collaborated with the data science team to evaluate model performance and implement improvements."
+            ]
+
+        }
+    ]
+}

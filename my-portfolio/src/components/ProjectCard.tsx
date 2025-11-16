@@ -1,3 +1,4 @@
+// src/components/ProjectCard.tsx
 'use client';
 
 import { Project } from '@/types';
@@ -16,8 +17,8 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       }}
     >
       {/* Project Image */}
-      <div className="h-48 bg-gradient-to-br from-[#F2C7C7] to-[#FFB7C5] flex items-center justify-center">
-        <div className="text-white text-6xl">
+      <div className="h-48 bg-gradient-to-br from-warm-cream to-soft-peach flex items-center justify-center">
+        <div className="text-6xl">
           {/* Placeholder icon - you can replace with actual images */}
           💻
         </div>
@@ -25,11 +26,11 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
 
       {/* Project Content */}
       <div className="p-6">
-        <h3 className="text-2xl font-bold text-gray-800 mb-3">
+        <h3 className="text-2xl font-bold text-deep-forest mb-3">
           {project.title}
         </h3>
         
-        <p className="text-gray-600 mb-4 line-clamp-3">
+        <p className="text-cool-gray mb-4 line-clamp-3">
           {project.description}
         </p>
 
@@ -38,7 +39,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           {project.technologies.map((tech) => (
             <span 
               key={tech}
-              className="px-3 py-1 bg-[#D5F3D8] text-gray-700 rounded-full text-sm"
+              className="px-3 py-1 bg-warm-cream text-dark-slate rounded-full text-sm"
             >
               {tech}
             </span>
@@ -51,7 +52,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             href={project.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 text-center py-2 px-4 bg-[#FFB7C5] text-white rounded-lg hover:bg-[#F2C7C7] transition-colors"
+            className="flex-1 text-center py-2 px-4 bg-warm-brown text-white rounded-lg hover:bg-soft-peach transition-colors"
           >
             GitHub
           </a>
@@ -60,7 +61,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 text-center py-2 px-4 border-2 border-[#FFB7C5] text-[#FFB7C5] rounded-lg hover:bg-[#FFB7C5] hover:text-white transition-colors"
+              className="flex-1 text-center py-2 px-4 border-2 border-warm-brown text-warm-brown rounded-lg hover:bg-warm-brown hover:text-white transition-colors"
             >
               Live Demo
             </a>

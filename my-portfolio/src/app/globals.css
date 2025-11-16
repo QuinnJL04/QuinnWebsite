@@ -1,34 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Fade-in animation */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
+/* Blinking cursor animation */
+@keyframes blink {
+  0%, 100% {
     opacity: 1;
-    transform: translateY(0);
+  }
+  50% {
+    opacity: 0;
   }
 }
 
-.animate-fade-in {
-  animation: fade-in 1s ease-out;
-}
-
-/* Scrolling animation for skills */
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.animate-blink {
+  animation: blink 1s step-end infinite;
 }

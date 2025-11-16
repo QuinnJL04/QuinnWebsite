@@ -2,27 +2,27 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Backend API",
-      "description": "Built a scalable RESTful API using Spring Boot with microservices architecture, handling 10k+ requests/minute",
-      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Redis", "Docker"],
+      "title": "Food Classification ViT",
+      "description": "Built a Vision Transformer from scratch to classify food images with 60% accuracy using PyTorch.",
+      "technologies": ["Python", "PyTorch", "Pandas"],
       "githubUrl": "https://github.com/yourusername/ecommerce-api",
-      "liveUrl": "https://api.example.com",
+      "liveUrl": null,
       "imageUrl": "/projects/ecommerce.png"
     },
     {
       "id": 2,
-      "title": "ML Price Prediction Model",
-      "description": "Developed a machine learning model using Python to predict real estate prices with 92% accuracy",
-      "technologies": ["Python", "Scikit-learn", "Pandas", "NumPy", "Flask"],
+      "title": "Rate My Professor AI",
+      "description": "Developed a optimized scheduling algorithm to pick professors based on rate my professor data and students course audit using OCR.",
+      "technologies": ["Python", "Pinecone", "OpenCV", "Flask"],
       "githubUrl": "https://github.com/yourusername/ml-price-prediction",
       "liveUrl": null,
       "imageUrl": "/projects/ml-model.png"
     },
     {
       "id": 3,
-      "title": "Data Pipeline Automation",
-      "description": "Automated ETL pipeline processing 1M+ records daily using Apache Spark and Airflow",
-      "technologies": ["Python", "Apache Spark", "Airflow", "AWS S3", "PostgreSQL"],
+      "title": "Reversi (Othello) Game",
+      "description": "Reversi game implemented in java with AI opponent using Minimax algorithm with alpha-beta pruning.",
+      "technologies": ["Java"],
       "githubUrl": "https://github.com/yourusername/data-pipeline",
       "liveUrl": null,
       "imageUrl": "/projects/data-pipeline.png"
@@ -30,11 +30,13 @@
   ],
   "skills": [
     { "name": "Java", "category": "backend", "level": 90 },
-    { "name": "Python", "category": "backend", "level": 85 },
+    { "name": "Python", "category": "backend", "level": 90 },
+    { "name": "Kotlin", "category": "mobile", "level": 85 },
+    { "name": "AWS", "category": "devops", "level": 70 },
     { "name": "Spring Boot", "category": "backend", "level": 88 },
+    { "name": "Kubernetes", "category": "devops", "level": 80 },
     { "name": "PostgreSQL", "category": "database", "level": 80 },
     { "name": "Docker", "category": "devops", "level": 75 },
-    { "name": "AWS", "category": "devops", "level": 70 },
     { "name": "Pandas", "category": "datascience", "level": 82 },
     { "name": "Scikit-learn", "category": "datascience", "level": 78 },
     { "name": "TypeScript", "category": "frontend", "level": 60 }
